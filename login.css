@@ -5,6 +5,10 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-image: url(images/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .log{
 width: 100%;
@@ -35,10 +39,10 @@ button{
 }
 @media screen and (max-width: 600px) {
     h1{
-        text-transform: uppercase;
+        text-transform: capitalize;
         text-align: center;
-        font-size: 26px;
-        margin-top: 10px;
+        font-size: 24px;
+        margin-top: 20px;
         color: rgb(10, 10, 233);
     }
     button{
