@@ -69,7 +69,7 @@ p{
     .main {
         display: grid;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         height: 80%;
         background-color: rgb(243, 239, 239);
         margin-left: 20%;
@@ -93,5 +93,10 @@ p{
     }
     p{
         font-size: 8px;
+    }
+    h1 {
+        text-align: center;
+        height: 10%;
+        width: 80%;
     }
 }
