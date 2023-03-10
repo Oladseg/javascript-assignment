@@ -33,3 +33,20 @@ button{
     border: none;
     border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 26px;
+        margin-top: 10px;
+        color: rgb(10, 10, 233);
+    }
+    button{
+        width: 35%;
+        height: 24px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+}

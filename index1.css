@@ -65,3 +65,14 @@ p{
     margin-top: 0%;
     color: rgba(98, 8, 243, 0.863);
 }
+@media screen and (max-width: 600px){
+    .main {
+        display: grid;
+        justify-content: center;
+        width: 60%;
+        height: 80%;
+        background-color: rgb(243, 239, 239);
+        margin-left: 20%;
+        border-radius: 5px;
+    }
+}
