@@ -81,19 +81,19 @@ font-weight: 900;
 }
 @media screen and (max-width: 600px){
     h1{
-        margin-top: 13%;
+        margin-top: 30%;
         font-size: 20px;
     }
     .nav{
-        width: 50%;
+        width: 60%;
         height: 6%;
         display: flex;
-        justify-content: right;
+        justify-content: space-evenly;
         background-color:transparent;
     }
     .container{
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         background-image:url(my\ bg.avif);
         background-repeat: no-repeat;
         background-size: cover;
@@ -105,5 +105,50 @@ font-weight: 900;
         display: flex;
         justify-content: center;
         margin-top: 30px;
+    }
+    ul{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        list-style: none;
+        color: rgb(244, 248, 5);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17x;
+        margin-top: 15px;
+    }
+    button{
+        width: 20%;
+        height: 57%;
+        margin-right: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: none;
+        font-size: 12px;
+        font-weight: 900;
+        color: red;
+    }
+    button:hover{
+        background-color: rgb(236, 12, 12);
+        transition: all ease-in-out;
+        color: white;
+        font-size: 16px;
+    }
+    li:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    }
+    .image{
+        width:30%;
+        display: flex;
+        justify-content: left;
+    }
+    .main{
+        width: 100%;
+        height: 60%;
+        color: rgb(235, 222, 222);
+        text-align: center;
     }
 }
