@@ -136,13 +136,14 @@ input {
         box-shadow: inset 2px 2px 5px #babecc,
             inset -5px -5px 10px #ffffff73;
         background-color: #ffffff73;
-
+        color: black;
     }
 
     input {
         font-size: 40pt;
         overflow-y: auto;
         text-align: right;
+        color: black;
     }
 
     .All_buttons {
