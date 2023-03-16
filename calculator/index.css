@@ -16,7 +16,7 @@ body {
 .major_container {
     background: rgb(218, 219, 223);
     width: 300px;
-    height: 80vh;
+    height: 800px;
     border-radius: .5em;
     box-shadow: 0px 0px 10px rgba(178, 181, 185, 0.288);
     margin: 0 auto;
