@@ -168,7 +168,7 @@ input {
     }
 
     button:hover {
-        color: #3498db;
+        color: rgb(255, 153, 0);
     }
 
     .zero {
